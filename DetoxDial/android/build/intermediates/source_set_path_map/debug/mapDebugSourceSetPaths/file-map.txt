@@ -1,0 +1,7 @@
+com.detoxdial-pngs-0 C:\DetoxDial\DetoxDial\android\build\generated\res\pngs\debug
+com.detoxdial-resValues-1 C:\DetoxDial\DetoxDial\android\build\generated\res\resValues\debug
+com.detoxdial-mergeDebugResources-2 C:\DetoxDial\DetoxDial\android\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.detoxdial-mergeDebugResources-3 C:\DetoxDial\DetoxDial\android\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.detoxdial-debug-4 C:\DetoxDial\DetoxDial\android\build\intermediates\merged_res\debug\mergeDebugResources
+com.detoxdial-debug-5 C:\DetoxDial\DetoxDial\android\src\debug\res
+com.detoxdial-main-6 C:\DetoxDial\DetoxDial\android\src\main\res

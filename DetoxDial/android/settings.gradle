@@ -1,0 +1,10 @@
+rootProject.name = "DetoxDial"
+include(":app")     // or rename to whatever subdirectory holds the Android code 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+}
