@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Use environment variable
-openai.api_key = os.getenv('OPENAI_API_KEY')
+#openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Basic routes for testing
 @app.route('/ping', methods=['GET'])
