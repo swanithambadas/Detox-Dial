@@ -4,6 +4,7 @@ import openai
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import logging
+import os
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
@@ -13,8 +14,8 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 CORS(app)
 
-# Configure OpenAI
-openai.api_key = "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"
+# Use environment variable
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Basic routes for testing
 @app.route('/ping', methods=['GET'])
